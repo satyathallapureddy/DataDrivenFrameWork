@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.test.LoginTest" time="6.934" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Maven Automation Job"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/kaplane3/.jenkins"/>
+    <property name="PATH" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6181c14c6a55c48a"/>
+    <property name="POM_ARTIFACTID" value="DataDrivenMavenFramework"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/resources.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/rt.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/sunrsasign.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jsse.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jce.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/charsets.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jfr.jar:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="DataDrivenMavenFramework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="kaplane3"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Maven Automation Job"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Maven%20Automation%20Job/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="TMPDIR" value="/var/folders/zn/yjq5__sj1cb4r1fwbxjmwdvm0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Applications/Softwares/apache-maven-3.6.1/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="java.home" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Maven%20Automation%20Job/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Maven%20Automation%20Job/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/libexec/java_home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="kaplane3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/kaplane3"/>
+    <property name="POM_GROUPID" value="com.pack"/>
+    <property name="user.home" value="/Users/kaplane3"/>
+    <property name="BUILD_TAG" value="jenkins-Maven Automation Job-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6181c14c6a55c48a"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/kaplane3/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.BOoiv7zLkR/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Applications/Softwares/apache-maven-3.6.1"/>
+    <property name="java.class.path" value="/Users/kaplane3/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Applications/Softwares/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar:/Applications/Softwares/apache-maven-3.6.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Applications/Softwares/apache-maven-3.6.1 /Users/kaplane3/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /Users/kaplane3/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/kaplane3/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 57312"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="JAVA_MAIN_CLASS_16793" value="Main"/>
+    <property name="PATH+JDK" value="/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Applications/Softwares/apache-maven-3.6.1"/>
+    <property name="java.io.tmpdir" value="/var/folders/zn/yjq5__sj1cb4r1fwbxjmwdvm0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/kaplane3/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Applications/Softwares/apache-maven-3.6.1/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Maven%20Automation%20Job/3/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.Pbq1yNMzeR/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="java.ext.dirs" value="/Users/kaplane3/Library/Java/Extensions:/Users/kaplane3/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/kaplane3/eclipse-workspace/DataDrivenMavenFramework"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Maven%20Automation%20Job/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/Applications/Softwares/apache-maven-3.6.1"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/kaplane3/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/kaplane3/eclipse-workspace/DataDrivenMavenFramework@tmp"/>
+    <property name="WORKSPACE" value="/Users/kaplane3/eclipse-workspace/DataDrivenMavenFramework"/>
+    <property name="maven3.interceptor.common" value="/Users/kaplane3/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="kaplane3"/>
+  </properties>
+  <testcase classname="com.test.LoginTest" name="userLogin" time="6.934"/>
+</testsuite>
